@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inmobiliaria ADL | Venta y Alquiler de Propiedades en Chile</title>
+  <meta name="description"
+    content="Encuentra tu próximo hogar con Inmobiliaria ADL. Expertos en venta y alquiler de casas y departamentos. Tasación gratuita y asesoría legal completa.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "name": "Inmobiliaria ADL",
+    "image": "https://tuweb.cl/assets/img/logo.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Vitacura 1234",
+      "addressLocality": "Santiago",
+      "addressRegion": "RM",
+      "addressCountry": "CL"
+    },
+    "telephone": "+56987654321",
+    "priceRange": "$$"
+  }
+  </script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Inmobiliaria <span class="text-primary">ADL</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="propiedades_venta.html">En venta</a></li>
+          <li class="nav-item"><a class="nav-link" href="propiedades_alquiler.html">Alquiler</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero-section text-white text-center d-flex align-items-center"
+    style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/img/imagen-1.webp') center/cover; height: 60vh;">
+    <div class="container">
+      <h1 class="display-3 fw-bold mb-3">Tu futuro hogar comienza aquí</h1>
+      <p class="lead fs-4 mb-4 text-white">Expertos en conectar personas con sus sueños inmobiliarios.</p>
+      <div class="d-flex justify-content-center gap-3">
+        <a href="#venta" class="btn btn-primary btn-lg px-5 shadow">Comprar</a>
+        <a href="#alquiler" class="btn btn-outline-light btn-lg px-5">Alquilar</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="py-5 bg-white" aria-labelledby="razones-titulo">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <h2 id="razones-titulo" class="fw-bold">¿Por qué elegir Inmobiliaria ADL?</h2>
+        <div class="mx-auto bg-primary" style="height: 4px; width: 50px; border-radius: 2px;" aria-hidden="true"></div>
+      </div>
+      <div class="row g-4 text-center">
+        <div class="col-md-4">
+          <article class="p-4 rounded-4 transition-hover">
+            <div
+              class="icon-box mb-3 mx-auto bg-primary bg-opacity-10 text-primary rounded-circle d-flex align-items-center justify-content-center"
+              style="width: 80px; height: 80px;">
+              <i class="fas fa-handshake fa-2x" aria-hidden="true"></i>
+            </div>
+            <h3 class="h4 fw-bold">Transparencia</h3>
+            <p class="text-muted">Procesos claros y legales. Sin letras chicas en tus contratos.</p>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="p-4 rounded-4 transition-hover">
+            <div
+              class="icon-box mb-3 mx-auto bg-primary bg-opacity-10 text-primary rounded-circle d-flex align-items-center justify-content-center"
+              style="width: 80px; height: 80px;">
+              <i class="fas fa-bolt fa-2x" aria-hidden="true"></i>
+            </div>
+            <h3 class="h4 fw-bold">Rapidez</h3>
+            <p class="text-muted">Gestionamos tus trámites en tiempo récord para que no pierdas tiempo.</p>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="p-4 rounded-4 transition-hover">
+            <div
+              class="icon-box mb-3 mx-auto bg-primary bg-opacity-10 text-primary rounded-circle d-flex align-items-center justify-content-center"
+              style="width: 80px; height: 80px;">
+              <i class="fas fa-shield-alt fa-2x" aria-hidden="true"></i>
+            </div>
+            <h3 class="h4 fw-bold">Seguridad</h3>
+            <p class="text-muted">Propiedades verificadas y asesoría legal completa en todo momento.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="bg-light border-top border-bottom">
+    <main class="container py-5">
+      <section id="venta" class="py-4" aria-labelledby="titulo-venta">
+        <div class="d-flex justify-content-between align-items-center mb-5">
+          <div>
+            <h2 id="titulo-venta" class="fw-bold mb-0">Destacados en Venta</h2>
+            <p class="text-muted mb-0">Explora las mejores ofertas de inversión.</p>
+          </div>
+          <a href="propiedades_venta.html" class="btn btn-primary shadow-sm px-4">Ver catálogo completo <span
+              class="visually-hidden">de propiedades en venta</span></a>
+        </div>
+        <div id="container-cards-venta" class="row row-cols-1 row-cols-md-3 g-4"></div>
+      </section>
+
+      <section class="rounded-4 overflow-hidden my-5 shadow-lg border-0"
+        style="background: #0d6efd; background: linear-gradient(45deg, #0d6efd, #0b5ed7); color: white;">
+        <div class="row align-items-center g-0">
+          <div class="col-md-6 p-5">
+            <h2 class="fw-bold display-6">¿Quieres vender tu propiedad?</h2>
+            <p class="lead opacity-75">Nosotros te ayudamos a encontrar al comprador ideal en tiempo récord.</p>
+            <button class="btn btn-light btn-lg fw-bold px-4 py-2 mt-3 shadow">Solicitar tasación gratuita</button>
+          </div>
+          <div class="col-md-6 d-none d-md-block">
+            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800"
+              class="img-fluid w-100" style="object-fit: cover; height: 350px;"
+              alt="Agente inmobiliario de ADL asesorando a un cliente para vender su casa" loading="lazy">
+          </div>
+        </div>
+      </section>
+
+      <section id="alquiler" class="py-4" aria-labelledby="titulo-alquiler">
+        <div class="d-flex justify-content-between align-items-center mb-5">
+          <div>
+            <h2 id="titulo-alquiler" class="fw-bold mb-0">Novedades en Alquiler</h2>
+            <p class="text-muted mb-0">Tu próximo hogar está esperando por ti.</p>
+          </div>
+          <a href="propiedades_alquiler.html" class="btn btn-success shadow-sm px-4">Ver catálogo completo <span
+              class="visually-hidden">de propiedades en alquiler</span></a>
+        </div>
+        <div id="container-cards-alquiler" class="row row-cols-1 row-cols-md-3 g-4"></div>
+      </section>
+    </main>
+  </div>
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">Lo que dicen nuestros clientes</h2>
+        <p class="text-muted">La satisfacción de quienes confiaron en nosotros es nuestra mejor carta de presentación.
+        </p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm h-100 p-4">
+            <div class="text-warning mb-3">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="fst-italic text-secondary">"Excelente servicio. Encontré el departamento de mis sueños en menos de
+              una semana. La asesoría legal fue impecable."</p>
+            <div class="d-flex align-items-center mt-3">
+              <img src="https://i.pravatar.cc/150?u=ana" class="rounded-circle me-3" width="50" alt="Ana Silva">
+              <div>
+                <h6 class="fw-bold mb-0">Ana Silva</h6>
+                <small class="text-muted">Compradora en Las Condes</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm h-100 p-4">
+            <div class="text-warning mb-3">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="fst-italic text-secondary">"Poner mi casa en arriendo con ADL fue la mejor decisión. Se encargaron
+              de todo, desde las fotos hasta la selección del arrendatario."</p>
+            <div class="d-flex align-items-center mt-3">
+              <img src="https://i.pravatar.cc/150?u=pedro" class="rounded-circle me-3" width="50" alt="Pedro Gómez">
+              <div>
+                <h6 class="fw-bold mb-0">Pedro Gómez</h6>
+                <small class="text-muted">Propietario</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card border-0 shadow-sm h-100 p-4">
+            <div class="text-warning mb-3">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+            </div>
+            <p class="fst-italic text-secondary">"Muy profesionales y transparentes. Me ayudaron con el crédito
+              hipotecario cuando pensé que no me lo darían. ¡Totalmente recomendados!"</p>
+            <div class="d-flex align-items-center mt-3">
+              <img src="https://i.pravatar.cc/150?u=carla" class="rounded-circle me-3" width="50" alt="Carla Rivas">
+              <div>
+                <h6 class="fw-bold mb-0">Carla Rivas</h6>
+                <small class="text-muted">Inversionista</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light">
+    <div class="container py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="text-center mb-5">
+            <h2 class="fw-bold">Preguntas Frecuentes</h2>
+            <p class="text-muted">Resolvemos tus dudas sobre el proceso inmobiliario en Chile.</p>
+          </div>
+
+          <div class="accordion accordion-flush shadow-sm rounded-4 overflow-hidden" id="accordionFAQ">
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                  ¿Qué documentos necesito para vender mi propiedad?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body text-secondary">
+                  Para vender tu propiedad en Chile, necesitas el título de dominio vigente, certificado de gravámenes y
+                  prohibiciones, el certificado de número, y el pago de contribuciones al día. En <strong>Inmobiliaria
+                    ADL</strong> te asesoramos en la obtención de toda esta carpeta legal.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq2">
+                  ¿Cómo se determina el valor de tasación de mi hogar?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body text-secondary">
+                  Consideramos la ubicación, los metros cuadrados construidos, el estado de conservación y los precios
+                  de mercado actuales en la zona. Ofrecemos una <strong>tasación comercial gratuita</strong> para
+                  nuestros clientes.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#faq3">
+                  ¿Aceptan crédito hipotecario para todas las propiedades?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
+                <div class="accordion-body text-secondary">
+                  Sí, la gran mayoría de nuestras propiedades en venta están regularizadas y listas para ser adquiridas
+                  mediante crédito hipotecario de cualquier institución bancaria.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-black text-white" aria-labelledby="titulo-servicios">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <h2 id="titulo-servicios" class="fw-bold">Servicios Integrales</h2>
+        <div class="mx-auto bg-primary mb-3" style="height: 3px; width: 40px;" aria-hidden="true"></div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-dark border-secondary border-opacity-25 h-100 p-4 text-white">
+            <h3 class="h5 fw-bold text-primary mb-3"><i class="fas fa-home me-2" aria-hidden="true"></i>Gestión</h3>
+            <p class="small text-white mb-0">Administramos tu alquiler para tu total tranquilidad.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-dark border-secondary border-opacity-25 h-100 p-4 text-white">
+            <h3 class="h5 fw-bold text-primary mb-3"><i class="fas fa-calculator me-2" aria-hidden="true"></i>Asesoría
+            </h3>
+            <p class="small text-white mb-0">Créditos hipotecarios con las mejores tasas bancarias.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-dark border-secondary border-opacity-25 h-100 p-4 text-white">
+            <h3 class="h5 fw-bold text-primary mb-3"><i class="fas fa-gavel me-2" aria-hidden="true"></i>Jurídica</h3>
+            <p class="small text-white mb-0">Redacción de contratos y estudios de títulos profesionales.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-dark border-secondary border-opacity-25 h-100 p-4 text-white">
+            <h3 class="h5 fw-bold text-primary mb-3"><i class="fas fa-camera me-2" aria-hidden="true"></i>Marketing</h3>
+            <p class="small text-white mb-0">Fotografía profesional y tours 360° para tu propiedad.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white pt-5 pb-3">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h2 class="h5 fw-bold mb-3">Inmobiliaria ADL</h2>
+          <p class="text-secondary">
+            Conectamos personas con sus sueños. Líderes en el mercado
+            inmobiliario nacional con más de 10 años de experiencia.
+          </p>
+        </div>
+        <div class="col-md-4 text-md-center">
+          <h2 class="h5 fw-bold mb-3">Navegación</h2>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-secondary text-decoration-none hover-link">Inicio</a></li>
+            <li><a href="propiedades_venta.html" class="text-secondary text-decoration-none hover-link">Propiedades en
+                Venta</a></li>
+            <li><a href="propiedades_alquiler.html" class="text-secondary text-decoration-none hover-link">Propiedades
+                en Alquiler</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 text-md-end">
+          <h2 class="h5 fw-bold mb-3">Contacto</h2>
+          <p class="text-secondary mb-1">
+            <i class="fas fa-map-marker-alt me-2" aria-hidden="true"></i> Av. Vitacura 1234, Santiago
+          </p>
+          <p class="text-secondary mb-1">
+            <i class="fas fa-phone me-2" aria-hidden="true"></i> +56 9 8765 4321
+          </p>
+          <p class="text-secondary">
+            <i class="fas fa-envelope me-2" aria-hidden="true"></i> contacto@adl.cl
+          </p>
+        </div>
+      </div>
+      <hr class="bg-secondary mt-4" />
+      <p class="text-center text-secondary small mb-0">
+        © 2026 Inmobiliaria ADL. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="assets/scripts/script.js"></script>
+</body>
+
+</html>
